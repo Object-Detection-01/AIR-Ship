@@ -33,8 +33,6 @@ This repository provides the source code, pre-trained models, and the **Inland W
 - **Environmental Diversity**: Images captured under clear, foggy, rainy, and nighttime conditions.
 - **Format**: COCO-style annotations.
 
-You can download the IWSD dataset [here].
-
 ---
 
 ## 🛠️ Installation
@@ -58,9 +56,7 @@ Follow the steps below to set up the AIR-Ship framework:
    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
    ```
 
-4. Download the pre-trained models and place them in the `weights/` directory:
-   - **AiR-Ship model**: [Download Link].
-   - **AiR-Ship+ (with WSID)**: [Download Link].
+
 
 
 ## 📈 Results
