@@ -1,7 +1,7 @@
 
 # AIR-Ship: A Real-Time Anti-Interference Framework for Vision-Based Ship Detection in Dense Fog Environments
 
-![License]
+
 
 ## 🚢 Introduction
 AIR-Ship is a lightweight and robust object detection framework designed for real-time ship detection in inland waterway environments under low-visibility conditions such as dense fog, backlight, and water surface reflections. The framework integrates:
@@ -53,7 +53,7 @@ Follow the steps below to set up the AIR-Ship framework:
 
 3. Set up PyTorch (ensure your CUDA version matches your system):
    ```bash
-   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+   pip install torch torchvision torchaudio
    ```
 
 
