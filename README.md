@@ -35,6 +35,7 @@ In the figure above, (a) and (b) depict comparisons of computational and paramet
 - **Categories**: Includes nine common ship types (e.g., cargo ships, fishing boats, ferries, recreational boats).
 - **Environmental Diversity**: Images captured under clear, foggy, rainy, and nighttime conditions.
 - **Format**: COCO-style annotations.
+
 Download address of the dataset: 
 
 ---
