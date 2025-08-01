@@ -1,10 +1,10 @@
 
-# AIR-Ship: A Real-Time Anti-Interference Framework for Vision-Based Ship Detection in Dense Fog Environments
+# A Real-Time Visual Sensor-Based Ship Detection Framework for Low-Visibility Inland Environments
 
 
 
 ## 🚢 Introduction
-AIR-Ship is a lightweight and robust object detection framework designed for real-time ship detection in inland waterway environments under low-visibility conditions such as dense fog, backlight, and water surface reflections. The framework integrates:
+ViS-FogNet is a lightweight and robust object detection framework designed for real-time ship detection in inland waterway environments under low-visibility conditions such as dense fog, backlight, and water surface reflections. The framework integrates:
 - **Water Surface Image Dehazing (WSID)**: A novel image preprocessing module that enhances clarity in degraded images.
 - **YOLOv10 with DS-SPPF**: An optimized detection backbone that incorporates the **Dilated Shared Spatial Pyramid Pooling Fast (DS-SPPF)** module for multi-scale feature extraction and robust detection.
 
@@ -43,13 +43,13 @@ Follow the steps below to set up the AIR-Ship framework:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Object-Detection-01/YOLO-DC.git
-   cd YOLO-DC
+   git clone https://github.com/Object-Detection-01/ViS-FogNet
+   cd ViS-FogNet
    ```
 
 2. Create a virtual environment and install dependencies:
    ```bash
-   conda create -n airship python=3.9 -y
+   conda create -n airship python=3.11 -y
    conda activate airship
    pip install -r requirements.txt
    ```
