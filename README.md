@@ -41,7 +41,7 @@ Download address of the dataset:  https://pan.baidu.com/s/1q2VCAQSQFSMYMOVCDS4q5
 ---
 
 ## 🛠️ Installation
-Follow the steps below to set up the AIR-Ship framework:
+Follow the steps below to set up the ViS-FogNet framework:
 
 1. Clone this repository:
    ```bash
@@ -51,8 +51,8 @@ Follow the steps below to set up the AIR-Ship framework:
 
 2. Create a virtual environment and install dependencies:
    ```bash
-   conda create -n airship python=3.11 -y
-   conda activate airship
+   conda create -n ViS-FogNet python=3.11 -y
+   conda activate ViS-FogNet
    pip install -r requirements.txt
    ```
 
@@ -78,7 +78,7 @@ Follow the steps below to set up the AIR-Ship framework:
 | YOLOvX-N       | 416  | 32.8  | 50.3    | 14.0 | 35.5 | 48.3 | 1143| 5.1M   | 6.5G   |
 | YOLOv8-N      | 640  | 36.9  | 52.6    | 15.3 | 35.6 | 54.7 | 734 | 3.2M   | 8.7G   |
 | YOLOv10-N      | 640  | 37.7  | 53.2    | 17.2 | 37.8 | 54.9 | 542 | 2.8M   | 8.7G   |
-| **AiR-Ship (Ours)**| 640  | 38.8  | 54.6    | 17.6 | 39.6 | 58.0 | 548 | 2.8M   | 8.4G   |
+| **ViS-FogNet (Ours)** | 640  | 38.8  | 54.6    | 17.6 | 39.6 | 58.0 | 548 | 2.8M   | 8.4G   |
 
 ### Performance on SeaShip Dataset
 | Method            | APval | APval50 | Precision | Recall | FPS | Params | FLOPs  |
@@ -90,7 +90,7 @@ Follow the steps below to set up the AIR-Ship framework:
 | STD-YOLO        | 61.2  | 95.7    | 89.6      | 90.5   | 258 | 16.3M  | 35.7G  |
 | YOLOv8-N      | 81.6  | 98.8    | 98.5      | 97.6   | 534 | 3.2M   | 8.7G   |
 | YOLOv10-N      | 81.1  | 98.5    | 97.4      | 96.5   | 542 | 2.8M   | 8.7G   |
-| **AiR-Ship (Ours)**| 82.4  | 98.9    | 97.8      | 97.9   | 548 | 2.8M   | 8.4G   |
+| **ViS-FogNet (Ours)** | 82.4  | 98.9    | 97.8      | 97.9   | 548 | 2.8M   | 8.4G   |
 
 ### Performance on IWSD Dataset
 | Method              | APval | APval50 | Precision | Recall | FPS | Params | FLOPs  |
@@ -102,8 +102,8 @@ Follow the steps below to set up the AIR-Ship framework:
 | STD-YOLO        | 35.7  | 44.5    | 69.2      | 38.4   | 258 | 16.3M  | 35.7G  |
 | YOLOv8-N        | 39.5  | 49.9    | 75.2      | 39.2   | 515 | 3.2M   | 8.7G   |
 | YOLOv10-N       | 38.7  | 48.9    | 74.5      | 37.3   | 539 | 2.8M   | 8.7G   |
-| **AiR-Ship (Ours)**  | 40.8  | 51.8    | 78.5      | 40.6   | 544 | 2.8M   | 8.4G   |
-| **AiR-Ship+ (Ours)** | 53.9  | 65.6    | 88.5      | 55.6   | 323 | 5.2M   | 12.5G  |
+| **ViS-FogNet (Ours)** | 40.8  | 51.8    | 78.5      | 40.6   | 544 | 2.8M   | 8.4G   |
+| **ViS-FogNet+ (Ours)** | 53.9  | 65.6    | 88.5      | 55.6   | 323 | 5.2M   | 12.5G  |
 
 ---
 
