@@ -1,6 +1,6 @@
 
 # A Real-Time Visual Sensor-Based Ship Detection Framework for Low-Visibility Inland Environments
-
+<img src="images/ViS-FogNet.png" width="1000" >
 
 
 ## 🚢 Introduction
