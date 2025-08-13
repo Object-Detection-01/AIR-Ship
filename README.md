@@ -1,10 +1,10 @@
 
-# A Real-Time Visual Sensor-Based Ship Detection Framework for Low-Visibility Inland Environments
+# RT-FogNet: Real-Time Ship Detection under Low-Visibility Conditions in Inland Waterways
 <img src="images/ViS-FogNet.png" width="1000" >
 
 
 ## 🚢 Introduction
-ViS-FogNet is a lightweight and robust object detection framework designed for real-time ship detection in inland waterway environments under low-visibility conditions such as dense fog, backlight, and water surface reflections. The framework integrates:
+RT-FogNet is a lightweight and robust object detection framework designed for real-time ship detection in inland waterway environments under low-visibility conditions such as dense fog, backlight, and water surface reflections. The framework integrates:
 - **Water Surface Image Dehazing (WSID)**: A novel image preprocessing module that enhances clarity in degraded images.
 - **YOLOv10 with DS-SPPF**: An optimized detection backbone that incorporates the **Dilated Shared Spatial Pyramid Pooling Fast (DS-SPPF)** module for multi-scale feature extraction and robust detection.
 
@@ -45,14 +45,14 @@ Follow the steps below to set up the ViS-FogNet framework:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Object-Detection-01/ViS-FogNet
-   cd ViS-FogNet
+   git clone https://github.com/Object-Detection-01/RT-FogNet
+   cd RT-FogNet
    ```
 
 2. Create a virtual environment and install dependencies:
    ```bash
-   conda create -n ViS-FogNet python=3.11 -y
-   conda activate ViS-FogNet
+   conda create -n RT-FogNet python=3.11 -y
+   conda activate RT-FogNet
    pip install -r requirements.txt
    ```
 
@@ -78,7 +78,7 @@ Follow the steps below to set up the ViS-FogNet framework:
 | YOLOvX-N       | 416  | 32.8  | 50.3    | 14.0 | 35.5 | 48.3 | 1143| 5.1M   | 6.5G   |
 | YOLOv8-N      | 640  | 36.9  | 52.6    | 15.3 | 35.6 | 54.7 | 734 | 3.2M   | 8.7G   |
 | YOLOv10-N      | 640  | 37.7  | 53.2    | 17.2 | 37.8 | 54.9 | 542 | 2.8M   | 8.7G   |
-| **ViS-FogNet (Ours)** | 640  | 38.8  | 54.6    | 17.6 | 39.6 | 58.0 | 548 | 2.8M   | 8.4G   |
+| **RT-FogNet (Ours)** | 640  | 38.8  | 54.6    | 17.6 | 39.6 | 58.0 | 548 | 2.8M   | 8.4G   |
 
 ### Performance on SeaShip Dataset
 | Method            | APval | APval50 | Precision | Recall | FPS | Params | FLOPs  |
@@ -90,7 +90,7 @@ Follow the steps below to set up the ViS-FogNet framework:
 | STD-YOLO        | 61.2  | 95.7    | 89.6      | 90.5   | 258 | 16.3M  | 35.7G  |
 | YOLOv8-N      | 81.6  | 98.8    | 98.5      | 97.6   | 534 | 3.2M   | 8.7G   |
 | YOLOv10-N      | 81.1  | 98.5    | 97.4      | 96.5   | 542 | 2.8M   | 8.7G   |
-| **ViS-FogNet (Ours)** | 82.4  | 98.9    | 97.8      | 97.9   | 548 | 2.8M   | 8.4G   |
+| **RT-FogNet (Ours)** | 82.4  | 98.9    | 97.8      | 97.9   | 548 | 2.8M   | 8.4G   |
 
 ### Performance on IWSD Dataset
 | Method              | APval | APval50 | Precision | Recall | FPS | Params | FLOPs  |
@@ -102,8 +102,8 @@ Follow the steps below to set up the ViS-FogNet framework:
 | STD-YOLO        | 35.7  | 44.5    | 69.2      | 38.4   | 258 | 16.3M  | 35.7G  |
 | YOLOv8-N        | 39.5  | 49.9    | 75.2      | 39.2   | 515 | 3.2M   | 8.7G   |
 | YOLOv10-N       | 38.7  | 48.9    | 74.5      | 37.3   | 539 | 2.8M   | 8.7G   |
-| **ViS-FogNet (Ours)** | 40.8  | 51.8    | 78.5      | 40.6   | 544 | 2.8M   | 8.4G   |
-| **ViS-FogNet+ (Ours)** | 53.9  | 65.6    | 88.5      | 55.6   | 323 | 5.2M   | 12.5G  |
+| **RT-FogNet (Ours)** | 40.8  | 51.8    | 78.5      | 40.6   | 544 | 2.8M   | 8.4G   |
+| **RT-FogNet+ (Ours)** | 53.9  | 65.6    | 88.5      | 55.6   | 223 | 5.2M   | 12.5G  |
 
 ---
 
