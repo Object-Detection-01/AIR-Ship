@@ -5,8 +5,8 @@ from ultralytics import YOLO
 
 
 if __name__ == '__main__':
-    model = YOLO('ultralytics/cfg/models/v10/YOLOv10-ViS-FogNet-detect.yaml')
-    # model.load('yolov8n.pt') # loading pretrain weights
+    model = YOLO('ultralytics/cfg/models/v10/YOLOv10-RT-FogNet-detect.yaml')
+    # model.load('yolov10n.pt') # loading pretrain weights
     model.train(data='/root/code/dataset/dataset_visdrone/coco.yaml',
                 cache=False,
                 imgsz=640,
@@ -21,5 +21,5 @@ if __name__ == '__main__':
                 # amp=False, # close amp
                 # fraction=0.2,
                 project='runs/coco-n',
-                name='ViS-FogNet-500',
+                name='RT-FogNet-500',
                 )
